@@ -1,0 +1,32 @@
+{
+  "name": "@mpiorowski/eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint config",
+  "main": "index.js",
+  "author": "Mateusz Piórowski",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpiorowski/eslint-config.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpiorowski/eslint-config/issues"
+  },
+  "homepage": "https://github.com/mpiorowski/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "typescript": ">= 4",
+    "@typescript-eslint/parser": ">= 5",
+    "@typescript-eslint/eslint-plugin": ">= 5",
+    "eslint-config-prettier": ">= 8",
+    "eslint-plugin-prettier": ">= 4",
+    "prettier": ">= 2"
+  }
+}
